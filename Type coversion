@@ -1,0 +1,9 @@
+//type conversion 
+#include<stdio.h>
+int main()
+{ int x=10;
+float y;
+y=(float)x;
+printf ("integer:%d\n",x);
+printf ("float:%.2f\n",y);
+}
