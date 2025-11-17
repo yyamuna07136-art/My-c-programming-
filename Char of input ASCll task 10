@@ -1,0 +1,10 @@
+//character input of user and print ASCll
+#include<stdio.h>
+int  main()
+{ char ch;
+
+printf ("enter a character:");
+scanf ("%c",&ch);
+printf (" the ASCll value of '%c'is:%d\n",ch,ch);
+
+}
