@@ -1,0 +1,16 @@
+//c program of keywords using string
+#include <stdio.h>
+# include<string.h>
+int main() {
+    char  description [200], keyword [50];
+     
+    printf ("Enter course discription:\n ");
+          fgets(description,sizeof(description), stdin);
+  
+        printf ("Enter keyword to search:");
+        scanf("%s", &keyword);
+   if (strstr(description, keyword) != NULL) {
+       printf ("keyword '%s' found in the course description.\n", keyword);
+   }
+    return 0;
+}
