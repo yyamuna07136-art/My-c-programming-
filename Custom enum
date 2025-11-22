@@ -1,0 +1,13 @@
+//enum custom 
+#include <stdio.h>
+enum level {
+    low  = 1,
+    medium  = 6,
+    high  = 10
+};
+int main() {
+    enum level l = high;
+ 
+    printf ("%d",l);
+    return 0;
+}
