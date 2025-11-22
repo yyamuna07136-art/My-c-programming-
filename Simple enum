@@ -1,0 +1,14 @@
+//enum simple menu
+#include <stdio.h>
+enum operation {
+    add = 1,
+    sub ,
+    mul ,
+    div ,
+};
+int main() {
+    enum operation o = mul;
+ 
+    printf ("%d",o);
+    return 0;
+}
